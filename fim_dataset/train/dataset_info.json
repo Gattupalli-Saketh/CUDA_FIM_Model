@@ -1,0 +1,58 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 21029776,
+  "description": "",
+  "download_checksums": {
+    "C://Users//Gattupalli Saketh//OneDrive/Desktop//Preprocessed//cuda_dataset.json": {
+      "num_bytes": 21719810,
+      "checksum": null
+    }
+  },
+  "download_size": 21719810,
+  "features": {
+    "file_path": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "cleaned_code": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prefix": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "middle": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "suffix": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "fim_text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 42749586,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 21029776,
+      "num_examples": 897,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
